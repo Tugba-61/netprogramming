@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin - Kütüphane</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <img src="img/logo.png" alt="Logo"><strong>Admin Paneli</strong>
+    <nav class="nav">
+      <a href="index.html">Giriş</a><a href="hakkimizda.html">Hakkımızda</a>
+      <a href="misyon.html">Misyon</a><a href="vizyon.html">Vizyon</a>
+      <a href="iletisim.html">İletişim</a><a href="login.html">Giriş</a>
+      <a class="active" href="admin.html">Admin</a>
+    </nav>
+  </header>
+
+  <main class="container grid">
+    <section class="card">
+      <h2>Kitap Listesi</h2>
+      <table class="table">
+        <thead>
+          <tr><th>ID</th><th>Ad</th><th>Yazar</th><th>Durum</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Suç ve Ceza</td><td>Dostoyevski</td><td>Mevcut</td></tr>
+          <tr><td>2</td><td>Sefiller</td><td>Victor Hugo</td><td>Ödünçte</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>Yeni Kitap Ekle</h2>
+      <form class="grid" onsubmit="alert('Kayıt (örnek). Backend yok.'); return false;">
+        <input class="input" type="text" placeholder="Kitap Adı" required>
+        <input class="input" type="text" placeholder="Yazar" required>
+        <button class="btn" type="submit">Ekle</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">© 2025 Kütüphane Otomasyon</footer>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Giriş - Kütüphane</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <img src="img/logo.png" alt="Logo"><strong>Kütüphane Otomasyon</strong>
+    <nav class="nav">
+      <a href="index.html">Giriş</a><a href="hakkimizda.html">Hakkımızda</a>
+      <a href="misyon.html">Misyon</a><a href="vizyon.html">Vizyon</a>
+      <a href="iletisim.html">İletişim</a><a class="active" href="login.html">Giriş</a><a href="admin.html">Admin</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card" style="max-width:420px; margin:0 auto;">
+      <h1>Üye / Personel Girişi</h1>
+      <form class="grid" onsubmit="alert('Giriş denemesi (örnek). Backend yok.'); return false;">
+        <input class="input" type="text" placeholder="Kullanıcı Adı" required>
+        <input class="input" type="password" placeholder="Şifre" required>
+        <button class="btn" type="submit">Giriş Yap</button>
+      </form>
+      <p style="color:#a3a3a3; margin-top:10px;">Not: Bu proje statiktir, gerçek kimlik doğrulama yok.</p>
+    </section>
+  </main>
+
+  <footer class="footer">© 2025 Kütüphane Otomasyon</footer>
+</body>
+</html>
