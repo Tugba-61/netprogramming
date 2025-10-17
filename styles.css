@@ -1,0 +1,30 @@
+/* Sayfa genel ayarları */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f4ff; /* açık mavi arka plan */
+  color: #222;
+  text-align: center; /* tüm yazıları ortala */
+  padding-top: 100px; /* yukarıdan biraz boşluk */
+}
+
+/* Başlık rengi */
+h1 {
+  color: #2b6cb0; /* mavi ton */
+}
+
+/* Buton stili */
+.buton {
+  background-color: #38a169; /* yeşil */
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Hover efekti */
+.buton:hover {
+  background-color: #2f855a; /* koyu yeşil */
+}
+
